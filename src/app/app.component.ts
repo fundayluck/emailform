@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppComponent {
   email!: string;
+
   onSubmit() {
     console.log(this.email);
   }
